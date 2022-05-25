@@ -57,8 +57,40 @@
       <h3 class="sign-out">Sign Out</h3>
       <button class="sign-out" id="sign-out">Sign Out</button>
  
-
+      <!--Create Reminder-->
+      
+      <form id="create-reminder-form">
+        <h3>New Reminder</h3>
+        <input name="reminder[title]" type="text" placeholder="What don't you want to forget?">
+        <input name="reminder[description]" type="text" placeholder="Add a Description!" size="40">
+        <input name="reminder[time]" type="date" placeholder="Enter a Number Rating" size="19">
+        <button type="submit">Submit</button>
+      </form>
+      
+      
+      
+      
+      <!--Button for Indexing Reminders-->
+      
+      <button class="all-reminders" id="reminder-index">Show All Reminders</button>
+          
+        <!--Form For Deleting Review-->
+        <!-- <form id="delete-game-review-form">
+              <input name="game[id]" type="text" placeholder="Enter Review ID">
+              <button id="game-delete">Delete Review</button>
+            </form> -->
+      
+        <!--Form For Updating Review-->
+        <!-- <form id="update-game-review-form">
+              <input name="game[id]" type="text" placeholder="Game ID">
+              <input name="game[title]" type="text" placeholder="Game Title">
+              <input name="game[description]" type="text" placeholder="Add a Description (optional)" size="40">
+              <input name="game[rating]" type="text" placeholder="Enter a Number Rating" size="19">
+              <button type="submit">Edit</button>
+            </form> -->
+        <!--Section For mongoDb -->
+        <section class="all-reminders" id="reminders"></section>
  
-      <h4 class="all-game-review">Your Reviews</h4>
+      <h4 class="all-reminders">Your Reminders</h4>
     </body>
 </html>
